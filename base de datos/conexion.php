@@ -1,6 +1,6 @@
 <?php
 
-$conexion =  mysqli_connect("localhost","root","","everday");
+$conexion =  mysqli_connect("localhost","root","","bdd_app_tesis");
 
 
 

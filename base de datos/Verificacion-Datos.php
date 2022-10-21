@@ -2,10 +2,10 @@
 
 include 'conexion.php';
 
-$usu = $_POST['usuario'];
+$correo = $_POST['correo'];
 $contra = $_POST['contraseña'];
 
-$validad_login = mysqli_query($conexion,"SELECT * FROM usuario WHERE usuario='$usu' AND contraseña ='$contra'");
+$validad_login = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo='$correo' AND contrasena ='$contra'");
 
 if(mysqli_num_rows($validad_login) > 0){
     // $_SESSION['usuario'] = $usuario;
