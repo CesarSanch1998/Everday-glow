@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style-login.css">
-    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="/style-login.css">
+    <link rel="icon" href="/icon.png">
     <title>EveryDay Glow</title>
 </head>
 <body>
@@ -14,20 +14,31 @@
   <div class="container" id="container">
     <div class="form-container sign-up-container">
       <form>
-        <img class="logo-2" src="/images/logo-login.png" alt="">
+        
         <h1>Crear Cuenta</h1>
-        <span>Utilize su Correo para registrarse</span>
+        <span>utilize su Correo para registrarse</span>
         <input type="text" placeholder="Nombre" />
         <input type="text" placeholder="Apellido" />
         <input type="email" id="signUpEmail"placeholder="Correo" />
         <input type="password" placeholder="Contraseña" />
+        
+        <div class="container-select">
+          <div class="select-wrapper">
+            <select class="select">
+              <option value="1" selected="selected">Profesor</option>
+              <option value="2">Alumno</option>
+            </select>
+            <span class="select-icon entypo-arrow-combo"></span>
+          </div>
+        </div>
+
         <button type="submit">Registrarse</button>
       </form>
     </div>
     <!-- container de inicio -->
     <div class="form-container sign-in-container">
       <form onSubmit={this.handleSubmitLogin}>
-        <img class="logo" src="/images/logo-login.png" alt="">
+        <img class="logo" src="/logo-login.png" alt="">
         <h1>Mi Cuenta</h1>
         <span>Ingresa tu Cuenta</span>
         <input type="email" id="signInEmail" placeholder="Correo" />
@@ -39,7 +50,7 @@
     <div class="overlay-container">
       <div class="overlay">
         <div class="overlay-panel overlay-left">
-          <h1>¿Ya te Registraste?</h1>
+          <h1>Ya te Registraste!</h1>
           <p> Entonces Que Esperas Haz Click Aqui!</p>
           <button class="ghost" id="signIn" onClick="openSignIn()">Inciar Sesion</button>
         </div>
@@ -51,6 +62,7 @@
       </div>
     </div>
   </div>
-    <script src="/js/scripts-login.js"></script>
+    <script src="/scripts-login.js"></script>
+    <script src="/select-scripts.js"></script>
 </body>
 </html>
