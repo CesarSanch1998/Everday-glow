@@ -13,20 +13,20 @@
     <!-- container de registro -->
   <div class="container" id="container">
     <div class="form-container sign-up-container">
-      <form>
+      <form action="registro_usuario.php" method="POST">
 
         <!--<img class="logo-2" src="/images/logo-login.png" alt="">-->
 
         <h1>Crear Cuenta</h1>
         <span>utilize su Correo para registrarse</span>
-        <input type="text" placeholder="Nombre" />
-        <input type="text" placeholder="Apellido" />
-        <input type="email" id="signUpEmail"placeholder="Correo" />
-        <input type="password" placeholder="Contraseña" />
+        <input type="text" placeholder="Nombre" name="nombreusu"/>
+        <input type="text" placeholder="Apellido" name="apellidousu"/>
+        <input type="email" id="signUpEmail"placeholder="Correo" name="correousu" />
+        <input type="password" placeholder="Contraseña" name="contrausu"/>
         
         <div class="container-select">
           <div class="select-wrapper">
-            <select class="select">
+            <select class="select" name="nivelusu">
               <option value="1" selected="selected">Profesor</option>
               <option value="2">Alumno</option>
             </select>
