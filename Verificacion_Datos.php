@@ -9,7 +9,7 @@ $validad_login = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo='$c
 
 if(mysqli_num_rows($validad_login) > 0){
     // $_SESSION['usuario'] = $usuario;
-    echo '<script> window.location ="index-slide.html"; </script>';
+    echo '<script> window.location ="./index-slide.html"; </script>';
         exit();
  } else{
 
@@ -17,7 +17,7 @@ if(mysqli_num_rows($validad_login) > 0){
              '
              <script>
             alert("Error Contraseña o Correo incorrectos!");
-            window.location ="index.html";
+            window.location ="./index.html";
              </script>
               ';
  }
