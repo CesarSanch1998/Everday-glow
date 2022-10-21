@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style-login.css">
+    <link rel="icon" href="/img/icon.png">
+    <title>EveryDay Glow</title>
+</head>
+<body>
+
+    <!-- container de registro -->
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form>
+        <img class="logo-2" src="/images/logo-login.png" alt="">
+        <h1>Crear Cuenta</h1>
+        <span>utilize su Correo para registrarse</span>
+        <input type="text" placeholder="Nombre" />
+        <input type="text" placeholder="Apellido" />
+        <input type="email" id="signUpEmail"placeholder="Correo" />
+        <input type="password" placeholder="Contraseña" />
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+    <!-- container de inicio -->
+    <div class="form-container sign-in-container">
+      <form onSubmit={this.handleSubmitLogin}>
+        <img class="logo" src="/images/logo-login.png" alt="">
+        <h1>Mi Cuenta</h1>
+        <span>Ingresa tu Cuenta</span>
+        <input type="email" id="signInEmail" placeholder="Correo" />
+        <input type="password" placeholder="Contraseña" />
+        <button type="submit">Iniciar Sesion</button>
+      </form>
+    </div>
+         <!-- Comentarios del Login -->
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>¿Ya te Registraste?</h1>
+          <p> Entonces Que Esperas Haz Click Aqui!</p>
+          <button class="ghost" id="signIn" onClick="openSignIn()">Inciar Sesion</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>Bienvenido a EveryDay Glow</h1>
+          <p>Ingresa Aqui tus Datos Personales Si No Posees Una Cuenta </p>
+          <button class="ghost" id="signUp" onClick="openSignUp()">Registrarse</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="/js/scripts-login.js"></script>
+</body>
+</html>
