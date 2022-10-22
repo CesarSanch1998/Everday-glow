@@ -104,7 +104,7 @@
                 <li><a href="#service">Servicios</a></li>
                 <li><a href="#Cambios">Cambios Fisicos</a></li>
                 <li><a href="#contact">Contactos</a></li>
-                <li><a href="/index.html"> <button>Iniciar Sesion</button> </a></li>
+                <li><a href="./login.php"> <button>Iniciar Sesion</button> </a></li>
               </ul>
             </div>
             <!-- /.navegacion-colapsado -->

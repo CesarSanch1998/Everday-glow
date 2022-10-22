@@ -1,10 +1,10 @@
 <?php
 include 'conexion.php';
-$nombreusu = $_POST['nombreusu'];
-$apellidousu = $_POST['apellidousu'];
-$correousu = $_POST['correousu'];
-$contrausu = $_POST['contrausu'];
-$nivelusu = $_POST['nivelusu'];
+$nombreusu = $_POST['nombre'];
+$apellidousu = $_POST['apellido'];
+$correousu = $_POST['correo'];
+$contrausu = $_POST['contra'];
+$nivelusu = $_POST['nivel'];
 //encriptando contraseña 
 //$contrausu = hash('sha512',$contrausu);
 
@@ -20,7 +20,7 @@ $query = "INSERT INTO usuarios(nombre,apellido,correo,contrasena,nivel) VALUE('$
              '
              <script>
             alert("Este correo ya esta registrado intente otro por favor!");
-            window.location ="./index.html";
+            window.location ="./login.php";
              </script>
               ';
               //cortando toda ejecucion si el correo se repite
@@ -30,15 +30,15 @@ $query = "INSERT INTO usuarios(nombre,apellido,correo,contrasena,nivel) VALUE('$
 if($ejecutar){
     echo '
     <script>
-    alert("Usuario registrado con exito!!");
-    window.location ="./index.html";
+    alert("Usuario registrado con exito!! inicie seccion para continuar ");
+    window.location ="./login.php";
     </script>
     ';
 }else{
     echo '
     <script>
     alert("Usuario no registrado!!");
-    window.location ="./index.html.html";
+    window.location ="./login.php";
     </script>
     ';
 }

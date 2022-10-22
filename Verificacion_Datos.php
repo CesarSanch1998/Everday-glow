@@ -16,14 +16,14 @@ if(mysqli_num_rows($validad_login) > 0){
         exit();
  } else{
 
-    header("Location: index.php");
-    /*echo
+    
+    echo
              '
              <script>
             alert("Error Contraseña o Correo incorrectos!");
-            window.location ="./index.html";
+            window.location ="./login.php";
              </script>
-              '; */
+              '; 
  }
 
 ?>

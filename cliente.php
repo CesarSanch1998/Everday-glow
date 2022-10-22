@@ -1,9 +1,9 @@
 <?php 
 
     session_start(); 
-    $nombre = $_SESSION['nombre'];
+    $correo = $_SESSION['correo'];
 
-    if(isset($_SESSION['nombre'])){
+    if(isset($_SESSION['correo'])){
 
 ?>
 <!DOCTYPE html>
@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">                     
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Servicios</a>
@@ -56,7 +56,7 @@
                 </ul>
                 <div class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="components.html" class="Cerrar-seccion">Cerrar Sesion</a>
+                        <a href="salir.php" class="Cerrar-seccion">Cerrar Sesion</a>
                     </li>
                 </div>
             </div>
@@ -221,7 +221,7 @@
 
             <!-- Sidebar -->
             <div class="page-sidebar text-center">
-                <h6 class="sidebar-title section-title mb-4 mt-3">Me</h6>
+                <h6 class="sidebar-title section-title mb-4 mt-3">Bienvenido, <?php echo $correo ?> </h6>
                 <img src="assets/imgs/avatar.jpg" alt="" class="circle-100 mb-3">
                 <div class="socials mb-3 mt-2">
                     <a href="javascript:void(0)"><i class="ti-facebook"></i></a>

@@ -1,4 +1,5 @@
 <?php
+
 ?>
 
 <!DOCTYPE html>
@@ -22,14 +23,14 @@
 
         <h1>Crear Cuenta</h1>
         <span>utilize su Correo para registrarse</span>
-        <input type="text" placeholder="Nombre" name="nombreusu"/>
-        <input type="text" placeholder="Apellido" name="apellidousu"/>
-        <input type="email" id="signUpEmail"placeholder="Correo" name="correousu" />
-        <input type="password" placeholder="Contraseña" name="contrausu"/>
+        <input type="text" placeholder="Nombre" name="nombre" required/>
+        <input type="text" placeholder="Apellido" name="apellido"/>
+        <input type="email" id="signUpEmail"placeholder="Correo" name="correo" required/>
+        <input type="password" placeholder="Contraseña" name="contra" required/>
         
         <div class="container-select">
           <div class="select-wrapper">
-            <select class="select" name="nivelusu">
+            <select class="select" name="nivel">
               <option value="1" selected="selected">Profesor</option>
               <option value="2">Alumno</option>
             </select>
@@ -46,8 +47,8 @@
         <img class="logo" src="./images/logo-login.png" alt="">
         <h1>Mi Cuenta</h1>
         <span>Ingresa tu Cuenta</span>
-        <input type="email" id="signInEmail" placeholder="Correo" name="correo" />
-        <input type="password" placeholder="Contraseña" name="contraseña"/>
+        <input type="email" id="signInEmail" placeholder="Correo" name="correo" required/>
+        <input type="password" placeholder="Contraseña" name="contraseña" required/>
         <button type="submit">Iniciar Sesion</button>
       </form>
     </div>
@@ -71,3 +72,8 @@
     <script src="./js/select-scripts.js"></script>
 </body>
 </html>
+<?php 
+    
+    
+
+?>
