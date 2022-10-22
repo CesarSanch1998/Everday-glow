@@ -1,10 +1,4 @@
-<?php 
-
-    session_start(); 
-    $nombre = $_SESSION['nombre'];
-
-    if(isset($_SESSION['nombre'])){
-
+<?php
 ?>
 <!DOCTYPE html>
 <html lang="es">

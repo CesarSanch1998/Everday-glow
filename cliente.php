@@ -1,3 +1,11 @@
+<?php 
+
+    session_start(); 
+    $nombre = $_SESSION['nombre'];
+
+    if(isset($_SESSION['nombre'])){
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -431,3 +439,11 @@
 
 </body>
 </html>
+<?php 
+    }else{
+
+        header('Location: login.php');
+
+    }
+
+?>

@@ -11,7 +11,7 @@ $validad_login = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo='$c
 
 if(mysqli_num_rows($validad_login) > 0){
     $_SESSION['correo'] = $correo;
-    header("Location: inicio.php");
+    header("Location: cliente.php");
     //echo '<script> window.location ="./index-slide.html"; </script>';
         exit();
  } else{
