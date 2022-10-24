@@ -13,11 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>EveryDay Glow</title>
     <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="./assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap styles-->
-	<link rel="stylesheet" href="assets/css/joeblog.css">
-    <link rel="stylesheet" href="/assets/css/user-style.css">
-    <link rel="icon" href="/assets/imgs/icon.png">
+	<link rel="stylesheet" href="./assets/css/joeblog.css">
+    <link rel="stylesheet" href="./assets/css/user-style.css">
+    <link rel="icon" href="./assets/imgs/icon.png">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
