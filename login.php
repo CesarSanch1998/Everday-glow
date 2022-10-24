@@ -31,13 +31,14 @@
         <div class="container-select">
           <div class="select-wrapper">
             <select class="select" name="nivel">
-              <option value="1" selected="selected">Profesor</option>
+            <option selected disabled>--Eligir--</option>
+              <option value="1">Entrenador</option>
               <option value="2">Alumno</option>
             </select>
             <span class="select-icon entypo-arrow-combo"></span>
           </div>
         </div>
-
+ 
         <button type="submit">Registrarse</button>
       </form>
     </div>

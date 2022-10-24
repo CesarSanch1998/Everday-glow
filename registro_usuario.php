@@ -5,8 +5,7 @@ $apellidousu = $_POST['apellido'];
 $correousu = $_POST['correo'];
 $contrausu = $_POST['contra'];
 $nivelusu = $_POST['nivel'];
-//encriptando contraseña 
-//$contrausu = hash('sha512',$contrausu);
+
 
 //insertar datos obtenidos de el formulario a un abase de datos 
 $query = "INSERT INTO usuarios(nombre,apellido,correo,contrasena,nivel) VALUE('$nombreusu','$apellidousu','$correousu','$contrausu','$nivelusu')";
