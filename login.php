@@ -21,6 +21,7 @@ if(isset($_SESSION['nombre'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-login.css">
     <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./assets/DataPicker/css/bootstrap-datepicker.css">
     <title>EveryDay Glow</title>
 </head>
 <body>
@@ -38,7 +39,7 @@ if(isset($_SESSION['nombre'])){
         <input type="text" placeholder="Apellido" name="apellido"/>
         <input type="email" id="signUpEmail"placeholder="Correo" name="correo" required/>
         <input type="password" placeholder="Contraseña" name="contra" required/>
-        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Date">
+        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Date" name="fecha_nacimiento">
         
         <div class="container-select">
           <div class="select-wrapper">
@@ -47,7 +48,7 @@ if(isset($_SESSION['nombre'])){
               <option value="1">Entrenador</option>
               <option value="2">Alumno</option>
             </select>
-            <span class="select-icon entypo-arrow-combo" name="fecha_nacimiento"></span>
+            <span class="select-icon entypo-arrow-combo" ></span>
           </div>
           <button type="submit">Registrarse</button>
         </div>
@@ -84,6 +85,13 @@ if(isset($_SESSION['nombre'])){
   </div>
     <script src="./js/scripts-login.js"></script>
     <script src="./js/select-scripts.js"></script>
+    <script src="assets/DataPicker/js/bootstrap-datepicker.min.js"></script>
+    <!--Script selector de fecha modal----------------------------------------------------->
+    <script>
+      
+    </script>
+    <!--Script selector de fecha modal----------------------------------------------------->
+
 </body>
 </html>
 <?php 

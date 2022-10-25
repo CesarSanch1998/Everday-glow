@@ -23,23 +23,40 @@ $verificar_correo = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo=
               //cortando toda ejecucion si el correo se repite
               exit();
  } 
-
- //obtener datos entrenador 
-
+///---------------------------------------------------------------------------------------------------------------------
 
 
 ///--------------------------------------------------------------------------------------------------------------------------
  //insertar datos obtenidos de el formulario a un abase de datos 
-$insertarusuario = "INSERT INTO usuarios(nombre,apellido,correo,contrasena,nivel) VALUE('$nombreusu','$apellidousu','$correousu','$contrausu','$nivelusu')";
+$insertarusuario = "INSERT INTO usuarios(nombre,apellido,correo,contrasena,nivel)
+ VALUE('$nombreusu','$apellidousu','$correousu','$contrausu','$nivelusu')";
 
  $ejecutar = mysqli_query($conexion, $insertarusuario);
+
 if($ejecutar){
+ 
+    $validad_login = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo='$correousu'");
+    $datos = mysqli_fetch_array($validad_login);
+
+    if($datos['nivel'] == "cliente"){              // verifica el tipo de usuario cliente o entrenador
+
+        
+     } else if($datos['nivel'] == "entrenador"){     // verifica el tipo de usuario cliente o entrenador
+       
+    //insertar datos entrenador 
+        $id_usuario = $datos['id_usuario'];
+    $insertar_entrenador ="INSERT INTO entrenadores(nombre_entrenador,apellido_entrenador,fecha_nacimiento_entrenador,relacion_usuario_entrenador) 
+    VALUE('$nombreusu','$apellidousu','$fecha_nacimiento','$id_usuario')";
+    $ejecutar = mysqli_query($conexion,$insertar_entrenador);
+        
     echo '
     <script>
     alert("Usuario registrado con exito!! inicie seccion para continuar ");
     window.location ="./login.php";
     </script>
     ';
+     }
+
 }else{
     echo '
     <script>
