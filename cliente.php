@@ -78,19 +78,19 @@
                 <a href="single-post.html" class="feature-post-item">                       
                     <span>Disiplinas Disponibles</span>
                 </a>
-                <a href="single-post.html" class="feature-post-item">
+                <a href="./Fitcombat-index.php" class="feature-post-item">
                     <img src="assets/imgs/img-1.jpg" class="w-100" alt="">
                     <div class="feature-post-caption">FitCombat</div>
                 </a>
-                <a href="single-post.html" class="feature-post-item">
+                <a href="./Yoga-index.php" class="feature-post-item">
                     <img src="assets/imgs/img-2.jpg" class="w-100" alt="">
                     <div class="feature-post-caption">Yoga</div>
                 </a>
-                <a href="single-post.html" class="feature-post-item">
+                <a href="./Zumba.php" class="feature-post-item">
                     <img src="assets/imgs/img-3.jpg" class="w-100" alt="">
                     <div class="feature-post-caption">zumba</div>
                 </a>
-                <a href="single-post.html" class="feature-post-item">
+                <a href="./CrossFit-index.php" class="feature-post-item">
                     <img src="assets/imgs/img-4.jpg" class="w-100" alt="">
                     <div class="feature-post-caption">CrossFit</div>
                 </a>
@@ -148,7 +148,7 @@
                             </div>
                             
                             <div class="card-footer p-0 text-center">
-                                <a href="single-post.html" class="btn btn-outline-dark btn-sm">Inscribirse</a>
+                                <a href="./Fitcombat-index.php" class="btn btn-outline-dark btn-sm">Inscribirse</a>
                             </div>                  
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                             </div>
                             
                             <div class="card-footer p-0 text-center">
-                                <a href="single-post.html" class="btn btn-outline-dark btn-sm">Inscribirse</a>
+                                <a href="./Yoga-index.php" class="btn btn-outline-dark btn-sm">Inscribirse</a>
                             </div>                  
                         </div>
                     </div>
@@ -194,7 +194,7 @@
                             </div>
                             
                             <div class="card-footer p-0 text-center">
-                                <a href="single-post.html" class="btn btn-outline-dark btn-sm">Inscribirse</a>
+                                <a href="./Zumba.php" class="btn btn-outline-dark btn-sm">Inscribirse</a>
                             </div>                  
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                             </div>
                             
                             <div class="card-footer p-0 text-center">
-                                <a href="single-post.html" class="btn btn-outline-dark btn-sm">Inscribirse</a>
+                                <a href="./CrossFit-index.php" class="btn btn-outline-dark btn-sm">Inscribirse</a>
                             </div>                  
                         </div>
                     </div>
