@@ -21,7 +21,8 @@ if(isset($_SESSION['nombre'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-login.css">
     <link rel="icon" href="./img/icon.png">
-    <link rel="stylesheet" href="./assets/DataPicker/css/bootstrap-datepicker.css">
+    
+
     <title>EveryDay Glow</title>
 </head>
 <body>
@@ -85,12 +86,6 @@ if(isset($_SESSION['nombre'])){
   </div>
     <script src="./js/scripts-login.js"></script>
     <script src="./js/select-scripts.js"></script>
-    <script src="assets/DataPicker/js/bootstrap-datepicker.min.js"></script>
-    <!--Script selector de fecha modal----------------------------------------------------->
-    <script>
-      
-    </script>
-    <!--Script selector de fecha modal----------------------------------------------------->
 
 </body>
 </html>
