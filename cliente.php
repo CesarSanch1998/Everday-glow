@@ -1,9 +1,13 @@
 <?php 
 
-    session_start(); 
-    $correo = $_SESSION['correo'];
+    session_start();  // se inicia seccion
+   $nombre = $_SESSION['nombre'];    // almacena el nombre mandado de la seccion en la variable $nombre para ser usado como referencia en la bienvenida
 
-    if(isset($_SESSION['correo'])){
+    if(isset($_SESSION['nombre'])){        // verifica si la variable nombre dentro de $_SESSION posee algun valor dentro
+
+        if($_SESSION['nivel'] == "cliente"){    // verifica si $_SESSION nivel lo compara y depende el usuario restringe 
+                                                // el no poder usar otra pagina que no sea la propia 
+         
 
 ?>
 <!DOCTYPE html>
@@ -221,7 +225,7 @@
 
             <!-- Sidebar -->
             <div class="page-sidebar text-center">
-                <h6 class="sidebar-title section-title mb-4 mt-3">Bienvenido, <?php echo $correo ?> </h6>
+                <h6 class="sidebar-title section-title mb-4 mt-3">Bienvenido, <?php echo $nombre ?> </h6>
                 <img src="assets/imgs/avatar.jpg" alt="" class="circle-100 mb-3">
                 <div class="socials mb-3 mt-2">
                     <a href="javascript:void(0)"><i class="ti-facebook"></i></a>
@@ -440,9 +444,12 @@
 </body>
 </html>
 <?php 
-    }else{
+ } else if($_SESSION['nivel'] == "entrenador"){      // si el nivel que entra en esta pagina es entrenador lo redirige a su pagina
+    header("Location: admin.php");
+  }
+    }else{                                           // cuyo caso no se halla detectado valor alguno en $_SESSION se mandara nuevamente al login
 
-        header('Location: login.php');
+        header('Location: login.php');               //funcion manda al login.php
 
     }
 

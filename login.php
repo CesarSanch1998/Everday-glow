@@ -1,5 +1,16 @@
 <?php
 
+session_start(); 
+
+if(isset($_SESSION['nombre'])){
+
+  if($_SESSION['nivel'] == "cliente"){
+    header("Location: cliente.php");
+  } else if($_SESSION['nivel'] == "entrenador"){
+    header("Location: admin.php");
+  }
+}else{
+
 ?>
 
 <!DOCTYPE html>
@@ -75,6 +86,6 @@
 </html>
 <?php 
     
-    
+  }
 
 ?>
