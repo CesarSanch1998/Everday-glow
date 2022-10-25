@@ -60,7 +60,7 @@
                 </ul>
                 <div class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="salir.php" class="Cerrar-seccion">Cerrar Sesion</a>
+                        <a href="salir.php" class="Cerrar-seccion btn btn-danger rounded">Cerrar Sesion</a>
                     </li>
                 </div>
             </div>

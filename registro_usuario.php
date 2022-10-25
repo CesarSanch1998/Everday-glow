@@ -5,15 +5,13 @@ $apellidousu = $_POST['apellido'];
 $correousu = $_POST['correo'];
 $contrausu = $_POST['contra'];
 $nivelusu = $_POST['nivel'];
+$fecha_nacimiento = $_POST['fecha_nacimiento'];
 
 
-//insertar datos obtenidos de el formulario a un abase de datos 
-$query = "INSERT INTO usuarios(nombre,apellido,correo,contrasena,nivel) VALUE('$nombreusu','$apellidousu','$correousu','$contrausu','$nivelusu')";
-
-                //tomando valos de correo en x columna y almacenandolo en esta variable
-                $verificar_correo = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo='$correousu'");
-        //verificando si el correo se repite en alguna columna y su valor es mayor a 0        
- if(mysqli_num_rows($verificar_correo) > 0)
+                
+$verificar_correo = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo='$correousu'");
+         
+ if(mysqli_num_rows($verificar_correo) > 0)          //verificando si el correo se repite en alguna columna y su valor es mayor a 0       
  {
         echo
              '
@@ -25,7 +23,16 @@ $query = "INSERT INTO usuarios(nombre,apellido,correo,contrasena,nivel) VALUE('$
               //cortando toda ejecucion si el correo se repite
               exit();
  } 
- $ejecutar = mysqli_query($conexion, $query);
+
+ //obtener datos entrenador 
+
+
+
+///--------------------------------------------------------------------------------------------------------------------------
+ //insertar datos obtenidos de el formulario a un abase de datos 
+$insertarusuario = "INSERT INTO usuarios(nombre,apellido,correo,contrasena,nivel) VALUE('$nombreusu','$apellidousu','$correousu','$contrausu','$nivelusu')";
+
+ $ejecutar = mysqli_query($conexion, $insertarusuario);
 if($ejecutar){
     echo '
     <script>

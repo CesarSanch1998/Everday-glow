@@ -23,6 +23,7 @@
   <link href="css/animate.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet">
   <link href="color/default.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/vendors/themify-icons/css/themify-icons.css">
   <link rel="icon" href="/img/icon.png">
 
 
@@ -104,7 +105,7 @@
                 <li><a href="#service">Servicios</a></li>
                 <li><a href="#Cambios">Cambios Fisicos</a></li>
                 <li><a href="#contact">Contactos</a></li>
-                <li><a href="./login.php"> <button>Iniciar Sesion</button> </a></li>
+                <li><a href="./login.php"> <button> Mi Cuenta</button> </a></li>
               </ul>
             </div>
             <!-- /.navegacion-colapsado -->

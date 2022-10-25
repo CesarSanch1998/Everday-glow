@@ -38,6 +38,7 @@ if(isset($_SESSION['nombre'])){
         <input type="text" placeholder="Apellido" name="apellido"/>
         <input type="email" id="signUpEmail"placeholder="Correo" name="correo" required/>
         <input type="password" placeholder="Contraseña" name="contra" required/>
+        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Date">
         
         <div class="container-select">
           <div class="select-wrapper">
@@ -46,11 +47,12 @@ if(isset($_SESSION['nombre'])){
               <option value="1">Entrenador</option>
               <option value="2">Alumno</option>
             </select>
-            <span class="select-icon entypo-arrow-combo"></span>
+            <span class="select-icon entypo-arrow-combo" name="fecha_nacimiento"></span>
           </div>
+          <button type="submit">Registrarse</button>
         </div>
  
-        <button type="submit">Registrarse</button>
+        
       </form>
     </div>
     <!-- container de inicio -->
