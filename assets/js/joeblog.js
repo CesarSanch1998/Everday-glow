@@ -1,16 +1,3 @@
-/*!
-=========================================================
-* JoeBlog Landing page
-=========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 
 // smooth scroll
 $(document).ready(function(){
@@ -30,3 +17,22 @@ $(document).ready(function(){
         } 
     });
 });
+
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},3000);
+	});
+}); 
+
+var inputs = document.getElementsByClassName('formulario__input');
+for (var i = 0; i < inputs.length; i++) {
+  inputs[i].addEventListener('keyup', function(){
+    if(this.value.length>=1) {
+      this.nextElementSibling.classList.add('fijar');
+    } else {
+      this.nextElementSibling.classList.remove('fijar');
+    }
+  });
+}

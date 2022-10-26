@@ -1,3 +1,5 @@
+<?php 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -274,7 +276,7 @@
                 createOrder: function(data, actions) {
                     return actions.order.create({
                         purchase_units: [{
-                            "description": "Costo del curso",
+                            "description":"Compra cursos",
                             "amount": {
                                 "currency_code": "USD",
                                 "value": 45
@@ -284,10 +286,10 @@
                 },
 
                 onApprove: function(data, actions) {
-                    return actions.order.capture().then(function(orderData) {
+                    return actions.order.capture().then(function(detalles) {
 
                         // Full available details
-                        console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                        //console.log('Capture result', detalles, JSON.stringify(detalles, null, 2));
 
                         // Show a success message within this page, e.g.
                         const element = document.getElementById('paypal-button-container');
@@ -295,6 +297,16 @@
                         element.innerHTML = '<h3>Thank you for your payment!</h3>';
 
                         // Or go to another URL:  actions.redirect('thank_you.html');
+                        let url ='./captura_compra.php';
+                        return fetch(url,{
+                            method:'post',
+                            headers:{
+                                'content-type':'application/json'
+                            },
+                            body: JSON.stringify({
+                                detalles: detalles
+                            })
+                        });
 
                     });
                 },

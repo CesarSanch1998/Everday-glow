@@ -7,7 +7,7 @@ if(isset($_SESSION['nombre'])){
   if($_SESSION['nivel'] == "cliente"){
     header("Location: cliente.php");
   } else if($_SESSION['nivel'] == "entrenador"){
-    header("Location: admin.php");
+    header("Location: entrenador.php");
   }
 }else{
 

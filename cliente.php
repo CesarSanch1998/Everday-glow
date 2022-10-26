@@ -21,6 +21,7 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
             <link rel="stylesheet" href="./assets/vendors/themify-icons/css/themify-icons.css">
             <!-- Bootstrap styles-->
             <link rel="stylesheet" href="./assets/css/joeblog.css">
+            <link rel="stylesheet" href="./assets/css/info-style.css">
             <link rel="stylesheet" href="./assets/css/user-style.css">
             <link rel="icon" href="./assets/imgs/icon.png">
         </head>
@@ -105,7 +106,7 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
                 <div class="page-container">
                     <div class="page-content">
                         <!--Grafica en canvas para mostrar logros-------->
-                    
+
                         <!--Grafica en canvas para mostrar logros-------->
                         <div class="card">
                             <div class="card-header text-center">
@@ -326,7 +327,20 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
                         <a href="javascript:void(0)" class="badge badge-primary m-1">#Ejercicio</a>
 
 
-
+                        <!-- formulario de caracteristicas -->
+                        <form action="" class="formulario">
+                            <h1 class="formulario__titulo">caracteristicas</h1>
+                            <input type="text" class="formulario__input">
+                            <label for="" class="formulario__label">Peso</label>
+                            <input type="text" class="formulario__input">
+                            <label for="" class="formulario__label">Altura</label>
+                            <input type="text" class="formulario__input">
+                            <label for="" class="formulario__label">Edad</label>
+                            <input type="text" class="formulario__input">
+                            <label for="" class="formulario__label">Patologia</label>
+                            <input type="submit" class="formulario__submit">
+                        </form>
+                        <!-- end formualario -->
                         <h6 class="sidebar-title mt-5 mb-4">Entrenamiento</h6>
                         <div class="card mb-4">
                             <a href="single-post.html" class="overlay-link"></a>
@@ -455,7 +469,7 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
             <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
             <!-- JoeBLog js -->
-            <script src="assets/js/joeblog.js"></script>
+            <script src="./assets/js/joeblog.js"></script>
 
             <!--Scrip de graficos para muestra de logros------------------------------------------------------ -->
             <script src="./js/chart.js"></script>

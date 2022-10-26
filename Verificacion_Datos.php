@@ -17,6 +17,10 @@ if($datos['nivel'] == "cliente"){              // verifica el tipo de usuario cl
 
     $nombrecliente = $datos['nombre'];         // crea una variable $nombreusuario y le pasa los datos ya con seccion iniciada el nombre del usuario
 
+    $id_cliente = $datos['id_usuario'];
+
+    $_SESSION['id_usuario'] = $id_cliente; 
+    
     $nivel = $datos['nivel'];                 
 
     $_SESSION['nombre'] = $nombrecliente;      //indica que la seccion actual obtendra el nombre obtenido anteriormente
@@ -35,7 +39,7 @@ if($datos['nivel'] == "cliente"){              // verifica el tipo de usuario cl
 
     $_SESSION['nivel'] = $nivel;
 
-    header("Location: admin.php");                //envia al entrenador a su pagina de inicio
+    header("Location: entrenador.php");                //envia al entrenador a su pagina de inicio
     
  
  }

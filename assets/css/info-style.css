@@ -11641,6 +11641,13 @@ textarea.form-control {
   height: 450px;
 }
 
+.page-header-trainer {
+  position: relative;
+  background: url(/public_html/assets/imgs/Fitcombat-trainer-ui.jpg) no-repeat center top fixed;
+  background-size: cover;
+  height: 450px;
+}
+
 @media (max-width: 767.98px) {
   .page-header {
     max-height: 350px;
