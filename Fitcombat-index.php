@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with JoeBLog landing page.">
     <meta name="author" content="Devcrud">
@@ -9,11 +10,12 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap styles -->
-	<link rel="stylesheet" href="assets/css/info-style.css">
+    <link rel="stylesheet" href="assets/css/info-style.css">
     <link rel="icon" href="/public_html/assets/imgs/icon.png">
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    
+
     <!-- page First Navigation -->
     <nav class="navbar navbar-light bg-light">
         <div class="container">
@@ -36,7 +38,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">                     
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Inicio</a>
                     </li>
@@ -53,16 +55,16 @@
                     </li>
                 </div>
             </div>
-        </div>  
+        </div>
     </nav>
     <!-- End Of Page Second Navigation -->
-    
+
     <!-- page-header-service1 -->
     <header class="page-header-service1">
-    <center>
-        <video width="1000" height="500" controls>
-        <source src="./assets/videos/Fit Combat.mp4" type="video/mp4">
-        </video>
+        <center>
+            <video width="1000" height="500" controls>
+                <source src="./assets/videos/Fit Combat.mp4" type="video/mp4">
+            </video>
         </center>
     </header>
     <!-- end of page header -->
@@ -74,7 +76,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-header text-center">
-                        <h2 class="card-title">FITCOMBAT</h2> 
+                        <h2 class="card-title">FITCOMBAT</h2>
                         <small class="small text-muted">Instructor:
                             <span class="px-2"></span>
                             <a href="#" class="text-muted">charles xavier</a>
@@ -85,63 +87,96 @@
                             <img src="/public_html/assets/imgs/Fitcombat-info.jpg" alt="" class="w-100">
                             <a href="#" class="badge badge-primary">#
                                 FITCOMBAT
-                            </a>     
-                        </div>  
-                        <p class="my-3">Ponte los guantes, siente la victoria y tira a la lona los miedos. Desafía a tu mente y tu cuerpo  
-                            llega más lejos con un intenso trabajo cardiovascular y técnicas de combate. Fitbombat es una manera divertida 
-                            y emocionante de hacer ejercicio, mejoras tu resistencia física, y tonificas tu cuerpo. Explora un entrenamiento 
+                            </a>
+                        </div>
+                        <p class="my-3">Ponte los guantes, siente la victoria y tira a la lona los miedos. Desafía a tu mente y tu cuerpo
+                            llega más lejos con un intenso trabajo cardiovascular y técnicas de combate. Fitbombat es una manera divertida
+                            y emocionante de hacer ejercicio, mejoras tu resistencia física, y tonificas tu cuerpo. Explora un entrenamiento
                             intensivo a nivel muscular y aeróbico. Mejora tu tono muscular del tren superior, medio e inferior. </p>
-                            <hr>
-                            <p>BENEFICIOS:
+                        <hr>
+                        <p>BENEFICIOS:
 
-                                Mejorar la coordinación corporal.
-                                Eliminar tensiones y estrés.
-                                Fortalece el músculo más importante del corazón.
-                                Eleva la autoestima y sube el buen ánimo y te llena de energía.
-                                Quema aproximadamente 600 calorías en 45 minutos
-                                Mejora tu oxigenación
-                                Reduce el riesgo de enfermedades cardiovasculares.
-                                Aprende técnicas de combate</p>
+                            Mejorar la coordinación corporal.
+                            Eliminar tensiones y estrés.
+                            Fortalece el músculo más importante del corazón.
+                            Eleva la autoestima y sube el buen ánimo y te llena de energía.
+                            Quema aproximadamente 600 calorías en 45 minutos
+                            Mejora tu oxigenación
+                            Reduce el riesgo de enfermedades cardiovasculares.
+                            Aprende técnicas de combate</p>
                     </div>
-                    
+
                     <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
                         <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
-                        <a href="#" class="btn btn-primary btn-lg btn-outline-dark btn-sm">Suscribirse</a>
                         <a href="#" class="text-dark small text-muted">Por: argenis rico </a>
-                    </div>                  
+                    </div>
                 </div>
-                 
-                
-                 <hr>
-                  
-                <div id="trainer" class="row">                       
+
+
+                <hr>
+
+                <div id="trainer" class="row">
                     <div class="col-lg-6">
-                       <div>
-                       </div>
+                        <div>
+                        </div>
                         <div class="card text-center mb-5">
-                            <div class="card-header p-0">                                   
+                            <div class="card-header p-0">
                                 <div class="blog-media">
                                     <img src="assets/imgs/fitcombat-teacher.png" alt="" class="w-100">
-                                    <a href="#" class="badge badge-primary">#Entrenador de Fitbombat</a>       
-                                </div>  
+                                    <a href="#" class="badge badge-primary">#Entrenador de Fitbombat</a>
+                                </div>
                             </div>
                             <div class="card-body px-0">
-                                <h5 class="card-title mb-2">Argenis Rico</h5> 
+                                <h5 class="card-title mb-2">Argenis Rico</h5>
                                 <small class="small text-muted">10 Años de Experiencia
                                     <span class="px-2">-</span>
                                     <a href="#" class="text-muted">Entrenador de FitCombat</a>
                                 </small>
                                 <p class="my-2">Mi nombre es Argenis Rico, Entrenador de FitCombat por mas de 10 años,
                                     Me especializo en la enseñanza y ejercicio de conocimientos teórico-prácticos para mis estudiantes sobre el Fitness de Combate,
-                                     posicionados exitosamente a nivel nacional e internacional, con una gama cada vez más diversificada de  nuevos sistemas de entrenamiento.</p>
-                                     <div class="video-contenedor">
-                                       
-                                     </div>
-                            </div>                  
+                                    posicionados exitosamente a nivel nacional e internacional, con una gama cada vez más diversificada de nuevos sistemas de entrenamiento.</p>
+                                <div class="video-contenedor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                        </div>
+                        <div class="card text-center mb-5">
+                            <div class="card-header p-0">
+                                <div class="blog-media">
+                                    <img src="./assets/imgs/Fitcombat-teacher2.jpg" alt="" class="w-100">
+                                    <a href="#" class="badge badge-primary">#Entrenador de FitCombat</a>
+                                </div>
+                            </div>
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-2">Carlos Rincon</h5>
+                                <small class="small text-muted">8 Años de Experiencia
+                                    <span class="px-2">-</span>
+                                    <a href="#" class="text-muted">Entrenador de FitCombat</a>
+                                </small>
+                                <p class="my-2">Mi nombre es Carlos Rincon, Entrenador de FitCombat por mas de 8 años,
+                                    Me especializo en enseñar y ejercitar conocimientos teóricos y prácticos para mis alumnos sobre Combat Fitness,
+                                    posicionado con éxito a nivel nacional e internacional, con una oferta cada vez más diversificada de nuevos sistemas de formación.</p>
+                                <div class="video-contenedor">
+                                   
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
+                <div class="row text-center">
+                    <h3>!!!Suscribase ahora a esta excelente clase con nuestros 2 mejores instructores¡¡¡ </h3>
+                </div>
+                 <!--Paypal boton-->
+                 <div id="smart-button-container">
+                            <div style="text-align: center;">
+                                <div id="paypal-button-container"></div>
+                            </div>
+                        </div>
+                        <!--Paypal boton-->
+
             </div>
         </div>
     </div>
@@ -223,21 +258,77 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
-                    <img src="assets/imgs/logo-dark.png"  alt="" class="logo">
+                    <img src="assets/imgs/logo-dark.png" alt="" class="logo">
                 </div>
 
             </div>
-            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>EveryDayGlow<a href="#" class="text-muted font-weight-bold" target="_blank"></a>  All rights reserved </p> 
-        </div>      
+            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>
+                    document.write(new Date().getFullYear())
+                </script>EveryDayGlow<a href="#" class="text-muted font-weight-bold" target="_blank"></a> All rights reserved </p>
+        </div>
     </footer>
     <!-- End of Page Footer -->
-    
-	<!-- core  -->
+
+    <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- JoeBLog js -->
     <script src="assets/js/joeblog.js"></script>
+    <!--Id de cliente paypal despues de client-id= y antes de &currency=USD-->
+    <script src="https://www.paypal.com/sdk/js?client-id=AQkgoQ8kXXABh5HjWgw13gaEXHWjp8aEJhI7fL3g0M__isowhgxLaja5uCVvCAu2wMPZRryGX3CD6mvW&currency=USD" data-sdk-integration-source="button-factory"></script>
+
+
+    <script>
+        ///Paypal accion botones-------------------------------------------------------------
+        function initPayPalButton() {
+            paypal.Buttons({
+                style: {
+                    shape: 'pill',
+                    color: 'gold',
+                    layout: 'horizontal',
+                    label: 'buynow',
+
+                },
+
+                createOrder: function(data, actions) {
+                    return actions.order.create({
+                        purchase_units: [{
+                            "description": "Costo del curso",
+                            "amount": {
+                                "currency_code": "USD",
+                                "value": 60
+                            }
+                        }]
+                    });
+                },
+
+                onApprove: function(data, actions) {
+                    return actions.order.capture().then(function(orderData) {
+
+                        // Full available details
+                        console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                        // Show a success message within this page, e.g.
+                        const element = document.getElementById('paypal-button-container');
+                        element.innerHTML = '';
+                        element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                        // Or go to another URL:  actions.redirect('thank_you.html');
+
+                    });
+                },
+
+                onError: function(err) {
+                    console.log(err);
+                }
+            }).render('#paypal-button-container');
+        }
+        initPayPalButton();
+        ////paypal accion botones------------------------------------------------------------------
+    </script>
+
 
 </body>
+
 </html>

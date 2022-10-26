@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with JoeBLog landing page.">
     <meta name="author" content="Devcrud">
@@ -9,11 +10,13 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap styles -->
-	<link rel="stylesheet" href="./assets/css/info-style.css">
+    <link rel="stylesheet" href="./assets/css/info-style.css">
     <link rel="icon" href="/public_html/assets/imgs/icon.png">
+
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    
+
     <!-- page First Navigation -->
     <nav class="navbar navbar-light bg-light">
         <div class="container">
@@ -36,7 +39,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">                     
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Inicio</a>
                     </li>
@@ -53,16 +56,16 @@
                     </li>
                 </div>
             </div>
-        </div>  
+        </div>
     </nav>
     <!-- End Of Page Second Navigation -->
-    
+
     <!-- page-header-service2 -->
     <header class="page-header-service2">
         <center>
-        <video width="1000" height="500" controls>
-        <source src="./assets/videos/Crossfit.mp4" type="video/mp4">
-        </video>
+            <video width="1000" height="500" controls>
+                <source src="./assets/videos/Crossfit.mp4" type="video/mp4">
+            </video>
         </center>
     </header>
     <!-- end of page header -->
@@ -74,7 +77,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-header text-center">
-                        <h2 class="card-title">CROSSFIT</h2> 
+                        <h2 class="card-title">CROSSFIT</h2>
                         <small class="small text-muted">Instructor:
                             <span class="px-2"></span>
                             <a href="#" class="text-muted">Ferry</a>
@@ -85,64 +88,74 @@
                             <img src="/public_html/assets/imgs/Crossfit-info.jpg" alt="" class="w-100">
                             <a href="#" class="badge badge-primary">#
                                 CROSSFIT
-                            </a>     
-                        </div>  
-                        <p class="my-3">CrossFit se define como un sistema de entrenamiento de fuerza y acondicionamiento basado en ejercicios 
-                            funcionales constantemente variados realizados a una alta intensidad. Esto significa que nos valemos de una gran cantidad 
-                            de ejercicios y disciplinas deportivas (gimnasia, halterofilia, carrera…), de entre las cuales seleccionamos técnicas o 
-                            movimientos aplicables a la vida diaria y los combinamos de muchas formas diferentes en entrenamientos intensos, 
-                            resultando no solo un experiencia exigente durante la cual el carácter lúdico y la camaradería cobran un papel primordial, 
-                            sino también un programa insuperable para desarrollar las diez capacidades físicas generales: resistencia cardiovascular, 
+                            </a>
+                        </div>
+                        <p class="my-3">CrossFit se define como un sistema de entrenamiento de fuerza y acondicionamiento basado en ejercicios
+                            funcionales constantemente variados realizados a una alta intensidad. Esto significa que nos valemos de una gran cantidad
+                            de ejercicios y disciplinas deportivas (gimnasia, halterofilia, carrera…), de entre las cuales seleccionamos técnicas o
+                            movimientos aplicables a la vida diaria y los combinamos de muchas formas diferentes en entrenamientos intensos,
+                            resultando no solo un experiencia exigente durante la cual el carácter lúdico y la camaradería cobran un papel primordial,
+                            sino también un programa insuperable para desarrollar las diez capacidades físicas generales: resistencia cardiovascular,
                             resistencia energética, fuerza, flexibilidad, potencia, velocidad, coordinación, agilidad, equilibrio y precisión. </p>
-                            <hr>
-                            <p>Podemos afirmar sin lugar a dudas que la comunidad supone una parte fundamental del CrossFit. 
-                                Pertenecer a esa comunidad implica que en el momento en el que empezamos a practicarlo pasamos a
-                                 engrosar una gran familia de personas con las que compartir sufrimientos y alegrías, con las que
-                                  entrenamos buscando sentirnos mejor y que al igual que nosotros no se conforman con un simple buen
-                                   estado de forma. Nos encontramos con esa gran familia cuando entrenamos con nuestros compañeros de
-                                    siempre en nuestro Box, pero también cuando viajamos y tenemos la suerte de poder entrenar junto a
-                                     otros “compañeros”, en sitios diferentes, pero siempre bajo un lenguaje común, el del CrossFit.</p>
+                        <hr>
+                        <p>Podemos afirmar sin lugar a dudas que la comunidad supone una parte fundamental del CrossFit.
+                            Pertenecer a esa comunidad implica que en el momento en el que empezamos a practicarlo pasamos a
+                            engrosar una gran familia de personas con las que compartir sufrimientos y alegrías, con las que
+                            entrenamos buscando sentirnos mejor y que al igual que nosotros no se conforman con un simple buen
+                            estado de forma. Nos encontramos con esa gran familia cuando entrenamos con nuestros compañeros de
+                            siempre en nuestro Box, pero también cuando viajamos y tenemos la suerte de poder entrenar junto a
+                            otros “compañeros”, en sitios diferentes, pero siempre bajo un lenguaje común, el del CrossFit.</p>
                     </div>
-                    
+
                     <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
                         <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
-                        <a href="#" class="btn btn-primary btn-lg btn-outline-dark btn-sm">Suscribirse</a>
+                        
                         <a href="#" class="text-dark small text-muted">Por: Ferry </a>
-                    </div>                  
+                    </div>
                 </div>
-                 
-                
-                 <hr>
-                  
-                <div id="trainer" class="row">                       
+
+
+                <hr>
+
+                <div id="trainer" class="row">
                     <div class="col-lg-6">
-                       <div>
-                       </div>
+                        <div>
+                        </div>
                         <div class="card text-center mb-5">
-                            <div class="card-header p-0">                                   
+                            <div class="card-header p-0">
                                 <div class="blog-media">
                                     <img src="assets/imgs/Crossfit-trainer.jpg" alt="" class="w-100">
-                                    <a href="#" class="badge badge-primary">#Entrenador de CrossFit</a>       
-                                </div>  
+                                    <a href="#" class="badge badge-primary">#Entrenador de CrossFit</a>
+                                </div>
                             </div>
                             <div class="card-body px-0">
-                                <h5 class="card-title mb-2">Ferry</h5> 
+                                <h5 class="card-title mb-2">Ferry</h5>
                                 <small class="small text-muted">5 Años de Experiencia
                                     <span class="px-2">-</span>
                                     <a href="#" class="text-muted">Entrenador de CrossFit</a>
                                 </small>
                                 <p class="my-2">Mi Nombre es Ferry, soy instructor de Croosfit desde hace mas de 5 años, El objetivo de esta preparación
-                                     intensa es mejorar las diez capacidades físicas más reconocidas en las pesas: la resistencia cardiovascular, energética,
-                                      la fuerza, la potencia, la velocidad,
-                                     la flexibilidad, la precisión, la coordinación, el equilibrio y la agilidad del cuerpo. </p>
-                                     <div class="video-contenedor">
-                                       
-                                     </div>
-                            </div>                  
+                                    intensa es mejorar las diez capacidades físicas más reconocidas en las pesas: la resistencia cardiovascular, energética,
+                                    la fuerza, la potencia, la velocidad,
+                                    la flexibilidad, la precisión, la coordinación, el equilibrio y la agilidad del cuerpo. </p>
+                                <div class="video-contenedor">
+
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!--Paypal boton-->
+                        <div id="smart-button-container">
+                            <div style="text-align: center;">
+                                <div id="paypal-button-container"></div>
+                            </div>
+                        </div>
+                        <!--Paypal boton-->
                     </div>
                 </div>
                 
+
             </div>
         </div>
     </div>
@@ -224,21 +237,76 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
-                    <img src="assets/imgs/logo-dark.png"  alt="" class="logo">
+                    <img src="assets/imgs/logo-dark.png" alt="" class="logo">
                 </div>
 
             </div>
-            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>EveryDayGlow<a href="#" class="text-muted font-weight-bold" target="_blank"></a>  All rights reserved </p> 
-        </div>      
+            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>
+                    document.write(new Date().getFullYear())
+                </script>EveryDayGlow<a href="#" class="text-muted font-weight-bold" target="_blank"></a> All rights reserved </p>
+        </div>
     </footer>
     <!-- End of Page Footer -->
-    
-	<!-- core  -->
+
+    <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- JoeBLog js -->
     <script src="assets/js/joeblog.js"></script>
 
+    <!--Id de cliente paypal despues de client-id= y antes de &currency=USD-->
+    <script src="https://www.paypal.com/sdk/js?client-id=AQkgoQ8kXXABh5HjWgw13gaEXHWjp8aEJhI7fL3g0M__isowhgxLaja5uCVvCAu2wMPZRryGX3CD6mvW&currency=USD" data-sdk-integration-source="button-factory"></script>
+
+    <script>
+        ////Codigo paypal-------------------------------------
+        function initPayPalButton() {
+            paypal.Buttons({
+                style: {
+                    shape: 'pill',
+                    color: 'gold',
+                    layout: 'horizontal',
+                    label: 'buynow',
+
+                },
+
+                createOrder: function(data, actions) {
+                    return actions.order.create({
+                        purchase_units: [{
+                            "description": "Costo del curso",
+                            "amount": {
+                                "currency_code": "USD",
+                                "value": 45
+                            }
+                        }]
+                    });
+                },
+
+                onApprove: function(data, actions) {
+                    return actions.order.capture().then(function(orderData) {
+
+                        // Full available details
+                        console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                        // Show a success message within this page, e.g.
+                        const element = document.getElementById('paypal-button-container');
+                        element.innerHTML = '';
+                        element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                        // Or go to another URL:  actions.redirect('thank_you.html');
+
+                    });
+                },
+
+                onError: function(err) {
+                    console.log(err);
+                }
+            }).render('#paypal-button-container');
+        }
+        initPayPalButton();
+        ////Codigo paypal-----------------------------------------------------------------------------
+    </script>
+
 </body>
+
 </html>

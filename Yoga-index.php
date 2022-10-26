@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with JoeBLog landing page.">
     <meta name="author" content="Devcrud">
@@ -9,11 +10,12 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap styles -->
-	<link rel="stylesheet" href="assets/css/info-style.css">
+    <link rel="stylesheet" href="assets/css/info-style.css">
     <link rel="icon" href="/public_html/assets/imgs/icon.png">
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    
+
     <!-- page First Navigation -->
     <nav class="navbar navbar-light bg-light">
         <div class="container">
@@ -36,7 +38,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">                     
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Inicio</a>
                     </li>
@@ -53,16 +55,16 @@
                     </li>
                 </div>
             </div>
-        </div>  
+        </div>
     </nav>
     <!-- End Of Page Second Navigation -->
-    
+
     <!-- page-header-service3 -->
     <header class="page-header-service3">
-    <center>
-        <video width="1000" height="500" controls>
-        <source src="./assets/videos/Yoga.mp4" type="video/mp4">
-        </video>
+        <center>
+            <video width="1000" height="500" controls>
+                <source src="./assets/videos/Yoga.mp4" type="video/mp4">
+            </video>
         </center>
     </header>
     <!-- end of page header -->
@@ -74,7 +76,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-header text-center">
-                        <h2 class="card-title">YOGA</h2> 
+                        <h2 class="card-title">YOGA</h2>
                         <small class="small text-muted">Instructor:
                             <span class="px-2"></span>
                             <a href="#" class="text-muted">Xuan Lan</a>
@@ -85,58 +87,66 @@
                             <img src="/public_html/assets/imgs/YOGA-info.jpg" alt="" class="w-100">
                             <a href="#" class="badge badge-primary">#
                                 YOGA
-                            </a>     
-                        </div>  
+                            </a>
+                        </div>
                         <p class="my-3">El yoga es una práctica que conecta el cuerpo, la respiración y la mente. ç
                             Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general.
-                             El yoga se desarrolló como una práctica espiritual hace miles de años. Hoy en día la mayoría de las personas
-                              en occidente hace yoga como ejercicio y para reducir el estrés. </p>
-                            <hr>
-                            <p>BENEFICIOS:
+                            El yoga se desarrolló como una práctica espiritual hace miles de años. Hoy en día la mayoría de las personas
+                            en occidente hace yoga como ejercicio y para reducir el estrés. </p>
+                        <hr>
+                        <p>BENEFICIOS:
 
-                                Reducir su presión arterial y su frecuencia cardíaca,
-                                Ayudarle a relajarse,
-                                Mejorar su confianza en usted mismo,
-                                Reducir el estrés,
-                                Mejorar su coordinación,
-                                Mejorar su concentración,
-                                Ayudarle a dormir mejor,
-                                Ayudar a la digestión.</p>
+                            Reducir su presión arterial y su frecuencia cardíaca,
+                            Ayudarle a relajarse,
+                            Mejorar su confianza en usted mismo,
+                            Reducir el estrés,
+                            Mejorar su coordinación,
+                            Mejorar su concentración,
+                            Ayudarle a dormir mejor,
+                            Ayudar a la digestión.</p>
                     </div>
-                    
+
                     <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
                         <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
-                        <a href="#" class="btn btn-primary btn-lg btn-outline-dark btn-sm">Suscribirse</a>
                         <a href="#" class="text-dark small text-muted">Por: Xuan Lan </a>
-                    </div>                  
+                    </div>
                 </div>
                 <hr>
-                
-                
-                <div class="row">                       
+
+
+                <div class="row">
                     <div class="col-lg-6">
                         <div class="card text-center mb-5">
-                            <div class="card-header p-0">                                   
+                            <div class="card-header p-0">
                                 <div class="blog-media">
                                     <img src="assets/imgs/yoga-trainer.png" alt="" class="w-100">
-                                    <a href="#" class="badge badge-primary">#Instructora de YOGA</a>       
-                                </div>  
+                                    <a href="#" class="badge badge-primary">#Instructora de YOGA</a>
+                                </div>
                             </div>
                             <div class="card-body px-0">
-                                <h5 class="card-title mb-2">Xuan Lan</h5> 
+                                <h5 class="card-title mb-2">Xuan Lan</h5>
                                 <small class="small text-muted">12 Años de Experiencia
                                     <span class="px-2">-</span>
                                     <a href="#" class="text-muted">Instructora de Yoga</a>
                                 </small>
                                 <p class="my-2">Mi nombre es Xuan Lan, instructora de FitCombat por mas de 12 años,
-                                    ¿Te has propuesto aprender yoga en casa? Te presento la lista de reproducción definitiva para principiantes de yoga. 
-                                    Te acompañaré en tu iniciación al yoga con prácticas de yoga online en español adaptadas a tus necesidades para que 
+                                    ¿Te has propuesto aprender yoga en casa? Te presento la lista de reproducción definitiva para principiantes de yoga.
+                                    Te acompañaré en tu iniciación al yoga con prácticas de yoga online en español adaptadas a tus necesidades para que
                                     puedas disfrutar al máximo de este camino de bienestar físico, mental y emocional. </p>
-                            </div>                  
+                            </div>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <!--Paypal boton-->
+                        <div id="smart-button-container">
+                            <div style="text-align: center;">
+                                <div id="paypal-button-container"></div>
+                            </div>
+                        </div>
+                        <!--Paypal boton-->
+                    </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -218,21 +228,77 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
-                    <img src="assets/imgs/logo-dark.png"  alt="" class="logo">
+                    <img src="assets/imgs/logo-dark.png" alt="" class="logo">
                 </div>
 
             </div>
-            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>document.write(new Date().getFullYear())</script>EveryDayGlow<a href="#" class="text-muted font-weight-bold" target="_blank"></a>  All rights reserved </p> 
-        </div>      
+            <p class="border-top mb-0 mt-4 pt-3 small">&copy; <script>
+                    document.write(new Date().getFullYear())
+                </script>EveryDayGlow<a href="#" class="text-muted font-weight-bold" target="_blank"></a> All rights reserved </p>
+        </div>
     </footer>
     <!-- End of Page Footer -->
-    
-	<!-- core  -->
+
+    <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- JoeBLog js -->
     <script src="assets/js/joeblog.js"></script>
 
+    <!--Id de cliente paypal despues de client-id= y antes de &currency=USD-->
+    <script src="https://www.paypal.com/sdk/js?client-id=AQkgoQ8kXXABh5HjWgw13gaEXHWjp8aEJhI7fL3g0M__isowhgxLaja5uCVvCAu2wMPZRryGX3CD6mvW&currency=USD" data-sdk-integration-source="button-factory"></script>
+
+
+    <script>
+        ///Paypal accion botones-------------------------------------------------------------
+        function initPayPalButton() {
+            paypal.Buttons({
+                style: {
+                    shape: 'pill',
+                    color: 'gold',
+                    layout: 'horizontal',
+                    label: 'buynow',
+
+                },
+
+                createOrder: function(data, actions) {
+                    return actions.order.create({
+                        purchase_units: [{
+                            "description": "Costo del curso",
+                            "amount": {
+                                "currency_code": "USD",
+                                "value": 40
+                            }
+                        }]
+                    });
+                },
+
+                onApprove: function(data, actions) {
+                    return actions.order.capture().then(function(orderData) {
+
+                        // Full available details
+                        console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                        // Show a success message within this page, e.g.
+                        const element = document.getElementById('paypal-button-container');
+                        element.innerHTML = '';
+                        element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                        // Or go to another URL:  actions.redirect('thank_you.html');
+
+                    });
+                },
+
+                onError: function(err) {
+                    console.log(err);
+                }
+            }).render('#paypal-button-container');
+        }
+        initPayPalButton();
+        ////paypal accion botones------------------------------------------------------------------
+    </script>
+
 </body>
+
 </html>
