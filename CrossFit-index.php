@@ -52,6 +52,7 @@
                 </ul>
                 <div class="navbar-nav ml-auto">
                     <li class="nav-item">
+                        <a href="./login.php" class="Cerrar-seccion ml-4 btn btn-primary rounded btn-danger mt-1 btn-sm ">Mi cuenta</a>
                         <a href="salir.php" class="Cerrar-seccion ml-4 btn btn-primary rounded btn-warning mt-1 btn-sm ">Cerrar Sesion</a>
                     </li>
                 </div>
@@ -109,7 +110,7 @@
 
                     <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
                         <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
-                        
+
                         <a href="#" class="text-dark small text-muted">Por: Ferry </a>
                     </div>
                 </div>
@@ -154,7 +155,7 @@
                         <!--Paypal boton-->
                     </div>
                 </div>
-                
+
 
             </div>
         </div>

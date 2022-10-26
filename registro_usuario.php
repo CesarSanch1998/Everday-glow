@@ -39,10 +39,11 @@ if ($ejecutar) {
     $datos = mysqli_fetch_array($validad_login);
 
     if ($datos['nivel'] == "cliente") {              // verifica el tipo de usuario cliente o entrenador
+        
         //insertar datos cliente
         $id_usuario = $datos['id_usuario'];
-        $insertar_cliente = "INSERT INTO clientes(nombre_cliente,apellido_cliente,fecha_nacimiento_cliente,relacion_usuario_cliente) 
-VALUE('$nombreusu','$apellidousu','2022-10-20','$id_usuario')";
+        $insertar_cliente = "INSERT INTO clientes(nombre_cliente,apellido_cliente,relacion_usuario_cliente) 
+VALUE('$nombreusu','$apellidousu','$id_usuario')";
         $ejecutar = mysqli_query($conexion, $insertar_cliente);
 
         echo '

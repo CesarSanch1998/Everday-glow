@@ -59,9 +59,6 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
                             <li class="nav-item">
                                 <a class="nav-link" href="#info">Informacion</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./cliente_cursos.php">Mis Cursos</a>
-                            </li>
                         </ul>
                         <div class="navbar-nav ml-auto">
                             <li class="nav-item">
@@ -105,38 +102,20 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
                 <div class="page-container">
                     <div class="page-content">
                         <!--Grafica en canvas para mostrar logros-------->
-                    
-                        <!--Grafica en canvas para mostrar logros-------->
-                        <div class="card">
-                            <div class="card-header text-center">
-                                <h5 class="card-title">Disciplinas</h5>
-                                <small class="small text-muted">Si tú sabes lo que vales, ve y consigue lo que mereces
-                                </small>
-                            </div>
-                            <div class="card-body">
-                                <div class="blog-media">
-                                    <img src="assets/imgs/blog-6.jpg" alt="" class="w-100">
-                                    <a href="#" class="badge badge-primary">#Motivacion</a>
-                                </div>
-                                <p class="my-3">El fitness es un modo de vivir que te transforma por dentro y por fuera. Es un estilo de vida, un matrimonio entre la buena alimentación (dieta balanceada) y la actividad física (rutina de entrenamiento).
-                                    Las personas amantes del mundo fitness, van a disfrutar de una mayor calidad de vida, mejor salud y van a llegar a una edad avanzada con mucha más fuerza y vitalidad que aquellas personas que siguen una vida sendentaria. Por ello, te recomendamos que te introduzcas en el mundo fitness en cuanto puedas.
-                                </p>
-                            </div>
 
-                            <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
-                                <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
-                                <a href="https://blog.viladomat.com/consejos-motivacion-fitness/" class="btn btn-outline-dark btn-sm">MAS INFO</a>
-                                <a href="#" class="text-dark small text-muted"></a>
-                            </div>
-                        </div>
+                        <!--Grafica en canvas para mostrar logros-------->
+
                         <hr>
 
                         <div id="services" class="card-header text-center">
-                            <h5 class="card-title">Servicios Disponibles</h5>
+                            <h5 class="card-title">Mis Cursos</h5>
                             <small class="small text-muted">Si tú sabes lo que vales, ve y consigue lo que mereces
                             </small>
                         </div>
-
+                        <?php 
+                        
+                        ?>
+                        <!--Columna en la parte de ver mis cursos -->
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="card text-center mb-5">
@@ -154,81 +133,13 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
                                         </small>
                                         <p class="my-2">Fortalece el músculo más importante del corazón. Eleva la autoestima y sube el buen ánimo y te llena de energía. Quema aproximadamente 600 calorías en 45 minutos. Mejora tu oxigenación.</p>
                                     </div>
-
                                     <div class="card-footer p-0 text-center">
-                                        <a href="./Fitcombat-index.php" class="btn btn-outline-dark btn-sm">Inscribirse</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="card text-center mb-5">
-                                    <div class="card-header p-0">
-                                        <div class="blog-media">
-                                            <img src="assets/imgs/blog-3.jpg" alt="" class="w-100">
-                                            <a href="#" class="badge badge-primary">#Yoga</a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <h5 class="card-title mb-2">Yoga</h5>
-                                        <small class="small text-muted">¿Para que sirve?
-                                            <span class="px-2">-</span>
-                                            <a href="#" class="text-muted">Ventajas</a>
-                                        </small>
-                                        <p class="my-2">práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general. El yoga se desarrolló como una práctica espiritual hace miles de años.</p>
-                                    </div>
-
-                                    <div class="card-footer p-0 text-center">
-                                        <a href="./Yoga-index.php" class="btn btn-outline-dark btn-sm">Inscribirse</a>
+                                        <a href="#" class="btn btn-outline-dark btn-sm">Ver curso</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="card text-center mb-5">
-                                    <div class="card-header p-0">
-                                        <div class="blog-media">
-                                            <img src="assets/imgs/blog-4.jpg" alt="" class="w-100">
-                                            <a href="#" class="badge badge-primary">#Zumba</a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <h5 class="card-title mb-2">Zumba</h5>
-                                        <small class="small text-muted">"En que me Beneficia?"
-                                            <span class="px-2">-</span>
-                                            <a href="#" class="text-muted">Dance</a>
-                                        </small>
-                                        <p class="my-2">En una clase de una hora de zumba, una persona puede eliminar hasta 800 calorías. La razón es que esta impacta todos los aspectos del acondicionamiento físico,</p>
-                                    </div>
-
-                                    <div class="card-footer p-0 text-center">
-                                        <a href="./Zumba.php" class="btn btn-outline-dark btn-sm">Inscribirse</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="card text-center mb-5">
-                                    <div class="card-header p-0">
-                                        <div class="blog-media">
-                                            <img src="assets/imgs/blog-5.jpg" alt="" class="w-100">
-                                            <a href="#" class="badge badge-primary">#CrossFit</a>
-                                        </div>
-                                    </div>
-                                    <div class="card-body px-0">
-                                        <h5 class="card-title mb-2">CrossFit</h5>
-                                        <small class="small text-muted">Porque es importante?
-                                            <span class="px-2">-</span>
-                                            <a href="#" class="text-muted">Cardio</a>
-                                        </small>
-                                        <p class="my-2">CrossFit se define como un sistema de entrenamiento de fuerza y acondicionamiento basado en ejercicios funcionales constantemente variados.</p>
-                                    </div>
-
-                                    <div class="card-footer p-0 text-center">
-                                        <a href="./CrossFit-index.php" class="btn btn-outline-dark btn-sm">Inscribirse</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <!--Columna en la parte de ver mis cursos -->
                     </div>
 
                     <!-- Sidebar -->

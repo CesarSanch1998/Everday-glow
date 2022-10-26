@@ -51,6 +51,7 @@
                 </ul>
                 <div class="navbar-nav ml-auto">
                     <li class="nav-item">
+                    <a href="./login.php" class="Cerrar-seccion ml-4 btn btn-primary rounded btn-danger mt-1 btn-sm ">Mi cuenta</a>
                         <a href="salir.php" class="Cerrar-seccion ml-4 btn btn-primary rounded btn-warning mt-1 btn-sm ">Cerrar Sesion</a>
                     </li>
                 </div>
