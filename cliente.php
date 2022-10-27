@@ -234,7 +234,7 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
 
                     <!-- Sidebar -->
                     <div class="page-sidebar text-center">
-                        <h6 class="sidebar-title section-title mb-4 mt-3">Bienvenido, <?php echo $nombre ?> </h6>
+                        <h6 class="sidebar-title section-title mb-4 mt-3">Bienvenid@, <?php echo $nombre ?> </h6>
                         <img src="assets/imgs/avatar-4.png" alt="" class="circle-100 mb-3">
                         <div class="socials mb-3 mt-2">
                             <a href="javascript:void(0)"><i class="ti-facebook"></i></a>
@@ -328,15 +328,15 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
 
 
                         <!-- formulario de caracteristicas -->
-                        <form action="" class="formulario">
+                        <form action="datos_adicionales_cliente.php" method="POST" class="formulario">
                             <h1 class="formulario__titulo">caracteristicas</h1>
-                            <input type="text" class="formulario__input">
+                            <input type="text" class="formulario__input" name="peso">
                             <label for="" class="formulario__label">Peso</label>
-                            <input type="text" class="formulario__input">
-                            <label for="" class="formulario__label">Altura</label>
-                            <input type="text" class="formulario__input">
+                            <input type="text" class="formulario__input" name="altura">
+                            <label for="" class="formulario__label">Altura cm</label>
+                            <input type="text" class="formulario__input" name="edad">
                             <label for="" class="formulario__label">Edad</label>
-                            <input type="text" class="formulario__input">
+                            <input type="text" class="formulario__input" name="patologia">
                             <label for="" class="formulario__label">Patologia</label>
                             <input type="submit" class="formulario__submit">
                         </form>

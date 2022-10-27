@@ -153,6 +153,20 @@
               <img src="img/team/1.jpg" alt="" />
             </div>
           </div>
+          
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.2s">
+              <div class="team-wrapper-overlay">
+                <h5>Keyla Cruse</h5>
+                <p>Profesora de yoga, entrenadora persona y coach de mindfulness.entre los que destacan el pilates</p>
+                <div class="social-icons">
+                  <ul class="team-social">
+                  </ul>
+                </div>
+              </div>
+              <img src="img/team/1.jpg" alt="" />
+            </div>
+          </div>
 
           <div class="col-xs-6 col-sm-3 col-md-3">
             <div class="team-wrapper-big wow bounceInUp" data-wow-delay="0.5s">
@@ -239,7 +253,7 @@
             <div class="wow fadeInLeft" data-wow-delay="0.2s">
               <div class="service-box">
                 <div class="service-icon">
-                  <img src="/img/service/yoga.jpg" alt="">
+                  <img src="./img/service/yoga.jpg" alt="">
                 </div>
                 <div class="service-desc">
                   <h5>Yoga</h5>
@@ -255,7 +269,7 @@
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="service-box">
                 <div class="service-icon">
-                  <img src="/img/service/crossfit.jpg" alt="">
+                  <img src="./img/service/crossfit.jpg" alt="">
                 </div>
                 <div class="service-desc">
                   <h5>CrossFit</h5>
@@ -271,7 +285,7 @@
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="service-box">
                 <div class="service-icon">
-                  <img src="/img/service/fitcombat.jpg" alt="">
+                  <img src="./img/service/fitcombat.jpg" alt="">
                 </div>
                 <div class="service-desc">
                   <h5>FitCombat</h5>
@@ -287,7 +301,7 @@
             <div class="wow fadeInRight" data-wow-delay="0.2s">
               <div class="service-box">
                 <div class="service-icon">
-                  <img src="/img/service/zumba.jpg" alt="">
+                  <img src="./img/service/zumba.jpg" alt="">
                 </div>
                 <div class="service-desc">
                   <h5>Zumba</h5>
