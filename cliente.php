@@ -66,7 +66,7 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
                         </ul>
                         <div class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="salir.php" class="Cerrar-seccion btn btn-danger rounded">Cerrar Sesion</a>
+                            <a href="salir.php" class="Cerrar-seccion ml-4 btn btn-primary rounded btn-warning mt-1 btn-sm ">Cerrar Sesion</a>
                             </li>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
             <div class="container">
                 <section>
                     <div class="feature-posts">
-                        <a href="single-post.html" class="feature-post-item">
+                        <a href="#" class="feature-post-item">
                             <span>Disciplinas Disponibles</span>
                         </a>
                         <a href="./Fitcombat-index.php" class="feature-post-item">

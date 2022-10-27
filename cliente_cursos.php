@@ -3,6 +3,8 @@
 session_start();  // se inicia seccion
 $nombre = $_SESSION['nombre'];    // almacena el nombre mandado de la seccion en la variable $nombre para ser usado como referencia en la bienvenida
 
+$id_usuario = $_SESSION['id_usuario'];
+
 if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentro de $_SESSION posee algun valor dentro
 
     if ($_SESSION['nivel'] == "cliente") {    // verifica si $_SESSION nivel lo compara y depende el usuario restringe 
@@ -59,10 +61,12 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
                             <li class="nav-item">
                                 <a class="nav-link" href="#info">Informacion</a>
                             </li>
+                            
                         </ul>
                         <div class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="salir.php" class="Cerrar-seccion btn btn-danger rounded">Cerrar Sesion</a>
+                            <a href="./login.php" class="Cerrar-seccion ml-4 btn btn-primary rounded btn-danger mt-1 btn-sm ">Mi cuenta</a>
+                            <a href="salir.php" class="Cerrar-seccion ml-4 btn btn-primary rounded btn-warning mt-1 btn-sm ">Cerrar Sesion</a>
                             </li>
                         </div>
                     </div>
@@ -77,7 +81,7 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
             <div class="container">
                 <section>
                     <div class="feature-posts">
-                        <a href="single-post.html" class="feature-post-item">
+                        <a href="#" class="feature-post-item">
                             <span>Disciplinas Disponibles</span>
                         </a>
                         <a href="./Fitcombat-index.php" class="feature-post-item">
@@ -112,35 +116,164 @@ if (isset($_SESSION['nombre'])) {        // verifica si la variable nombre dentr
                             <small class="small text-muted">Si tú sabes lo que vales, ve y consigue lo que mereces
                             </small>
                         </div>
-                        <?php 
-                        
-                        ?>
                         <!--Columna en la parte de ver mis cursos -->
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="card text-center mb-5">
-                                    <div class="card-header p-0">
-                                        <div class="blog-media">
-                                            <img src="assets/imgs/blog-2.jpg" alt="" class="w-100">
-                                            <a href="#" class="badge badge-primary">#FitCombat</a>
+                            <?php
+                            //crossfit---------------------------------
+                            $imagen_cros ='blog-5.jpg';
+                            $titulo_cros = 'crossfit';
+                            $texto2_cros = 'Porque es importante?';
+                            $texto3_cros = 'Cardio';
+                            $texto4_cros = 'CrossFit se define como un sistema de entrenamiento de fuerza y acondicionamiento basado en ejercicios funcionales constantemente variados.';
+                            //fitcombat--------------------------------------------
+                            $imagen_fit ='blog-2.jpg';
+                            $titulo_fit = 'FitCombat';
+                            $texto2_fit = '¿Para que sirve el FitCombat?';
+                            $texto3_fit ='Beneficios';
+                            $texto4_fit ='Fortalece el músculo más importante del corazón. Eleva la autoestima y sube el buen ánimo y te llena de energía. Quema aproximadamente 600 calorías en 45 minutos. Mejora tu oxigenación.';
+                            //yoga--------------------------------------------
+                            $imagen_yo ='blog-3.jpg';
+                            $titulo_yo = 'Yoga';
+                            $texto2_yo = '¿Para que sirve?';
+                            $texto3_yo ='Ventajas';
+                            $texto4_yo ='práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general. El yoga se desarrolló como una práctica espiritual hace miles de años.';
+                            //zumba---------------------------------------------------------
+                            $imagen_zum ='blog-4.jpg';
+                            $titulo_zum = 'Yoga';
+                            $texto2_zum = '¿Para que sirve?';
+                            $texto3_zum ='Ventajas';
+                            $texto4_zum ='práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general. El yoga se desarrolló como una práctica espiritual hace miles de años.';
+                            //--------------------------------------------------------------------------
+                            
+                            include "conexion.php"; // Incluir conexion con base de datos
+                            $sql = "SELECT * FROM cursos_pagados WHERE id_relacion_cliente ='$id_usuario'"; //Obtener de la tabla usuariosdatos 
+                            $resultados = mysqli_query($conexion, $sql); // retornar resultados de la conexion y ejecutar script
+                            while ($mostrar = mysqli_fetch_array($resultados)) { // bucle que cada vez que encuentre una columna con datos
+                                if ($mostrar['costo_curso'] == 45) {  //crosssfit
+
+
+                            ?>
+                                    <div class="col-lg-6">
+                                        <div class="card text-center mb-5">
+                                            <div class="card-header p-0">
+                                                <div class="blog-media">
+                                                    <img src="assets/imgs/<?php echo $imagen_cros ?>" alt="" class="w-100">
+                                                    <a href="#" class="badge badge-primary">#<?php echo $titulo_cros ?></a>
+                                                </div>
+                                            </div>
+                                            <div class="card-body px-0">
+                                                <h5 class="card-title mb-2"><?php echo $titulo_cros ?></h5>
+                                                <small class="small text-muted"><?php echo $texto2_cros ?>
+                                                    <span class="px-2">-</span>
+                                                    <a href="#" class="text-muted"><?php echo $texto3_cros ?></a>
+                                                </small>
+                                                <p class="my-2"><?php echo $texto4_cros ?></p>
+                                            </div>
+                                            <div class="card-footer p-0 text-center">
+                                                <a href="#" class="btn btn-outline-dark btn-sm">Ver curso</a>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="card-body px-0">
-                                        <h5 class="card-title mb-2">FitCombat</h5>
-                                        <small class="small text-muted">¿Para que sirve el FitCombat?
-                                            <span class="px-2">-</span>
-                                            <a href="#" class="text-muted">Beneficios</a>
-                                        </small>
-                                        <p class="my-2">Fortalece el músculo más importante del corazón. Eleva la autoestima y sube el buen ánimo y te llena de energía. Quema aproximadamente 600 calorías en 45 minutos. Mejora tu oxigenación.</p>
+                                <?php
+                                }
+                                if ($mostrar['costo_curso'] == 60) { // fitcombat-----------
+                                ?>
+                                    <div class="col-lg-6">
+                                        <div class="card text-center mb-5">
+                                            <div class="card-header p-0">
+                                                <div class="blog-media">
+                                                    <img src="assets/imgs/<?php echo $imagen_fit ?>" alt="" class="w-100">
+                                                    <a href="#" class="badge badge-primary">#<?php echo $titulo_fit ?></a>
+                                                </div>
+                                            </div>
+                                            <div class="card-body px-0">
+                                                <h5 class="card-title mb-2"><?php echo $titulo_fit ?></h5>
+                                                <small class="small text-muted"><?php echo $texto2_fit ?>
+                                                    <span class="px-2">-</span>
+                                                    <a href="#" class="text-muted"><?php echo $texto3_fit ?></a>
+                                                </small>
+                                                <p class="my-2"><?php echo $texto4_fit ?></p>
+                                            </div>
+                                            <div class="card-footer p-0 text-center">
+                                                <a href="#" class="btn btn-outline-dark btn-sm">Ver curso</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="card-footer p-0 text-center">
-                                        <a href="#" class="btn btn-outline-dark btn-sm">Ver curso</a>
+
+                            <?php
+                                }
+                                if ($mostrar['costo_curso'] == 40) { //yoga---------
+                            
+                            ?>
+                             <div class="col-lg-6">
+                                        <div class="card text-center mb-5">
+                                            <div class="card-header p-0">
+                                                <div class="blog-media">
+                                                    <img src="assets/imgs/<?php echo $imagen_yo ?>" alt="" class="w-100">
+                                                    <a href="#" class="badge badge-primary">#<?php echo $titulo_yo ?></a>
+                                                </div>
+                                            </div>
+                                            <div class="card-body px-0">
+                                                <h5 class="card-title mb-2"><?php echo $titulo_yo ?></h5>
+                                                <small class="small text-muted"><?php echo $texto2_yo ?>
+                                                    <span class="px-2">-</span>
+                                                    <a href="#" class="text-muted"><?php echo $texto3_yo ?></a>
+                                                </small>
+                                                <p class="my-2"><?php echo $texto4_yo ?></p>
+                                            </div>
+                                            <div class="card-footer p-0 text-center">
+                                                <a href="#" class="btn btn-outline-dark btn-sm">Ver curso</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
+
+                            <?php
+                                }
+                                if ($mostrar['costo_curso'] == 30) { //zumba---------
+                            
+                                    ?>
+                                     <div class="col-lg-6">
+                                                <div class="card text-center mb-5">
+                                                    <div class="card-header p-0">
+                                                        <div class="blog-media">
+                                                            <img src="assets/imgs/<?php echo $imagen_zum ?>" alt="" class="w-100">
+                                                            <a href="#" class="badge badge-primary">#<?php echo $titulo_zum ?></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body px-0">
+                                                        <h5 class="card-title mb-2"><?php echo $titulo_zum ?></h5>
+                                                        <small class="small text-muted"><?php echo $texto2_zum ?>
+                                                            <span class="px-2">-</span>
+                                                            <a href="#" class="text-muted"><?php echo $texto3_zum ?></a>
+                                                        </small>
+                                                        <p class="my-2"><?php echo $texto4_zum ?></p>
+                                                    </div>
+                                                    <div class="card-footer p-0 text-center">
+                                                        <a href="#" class="btn btn-outline-dark btn-sm">Ver curso</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+        
+                                    <?php
+                                        }
+                                        
+                                    }
+                                    ?>
+                                
+                           
+
+
+
+
+
+
+
+
+
                         </div>
                         <!--Columna en la parte de ver mis cursos -->
                     </div>
+
 
                     <!-- Sidebar -->
                     <div class="page-sidebar text-center">
